@@ -1,0 +1,7 @@
+Tu travailles sur ce repository GitHub. Je veux lancer rapidement GOFUNDÉTAT, une fausse plateforme satirique de financement participatif alimentée par la « taxe au gigaoctet » votée en amendement le 30 octobre 2026.
+
+Le cahier des charges complet est dans BRIEF_CODEX_GOFUNDETAT.md. Lis-le intégralement, inspecte la base de code existante et implémente le MVP de bout en bout, sans backend, déployable sur GitHub Pages.
+
+Priorité absolue : landing design original + compteur national clairement SIMULÉ + simulateur rigoureux à 0,055 €/Go + configurateur d'overlay OBS via URL Browser Source + widget iframe + sources officielles + GitHub Actions + README/tests. Les montants ne sont jamais présentés comme des taxes actuellement collectées. L'upload OBS réel et les vues des plateformes ne doivent pas être faussement présentés comme mesurés : reporter le connecteur local obs-websocket en phase P1.
+
+Ne te contente pas d'un plan : écris les fichiers nécessaires, lance build et tests, corrige les erreurs et termine par un récapitulatif des livrables et de la procédure de publication Pages.
