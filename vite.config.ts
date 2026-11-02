@@ -1,9 +1,7 @@
 import { defineConfig } from 'vitest/config';
 
-const runtime = globalThis as typeof globalThis & { process?: { env?: Record<string, string | undefined> } };
-
 export default defineConfig({
-  base: runtime.process?.env?.GITHUB_ACTIONS ? '/upload_taxes/' : '/',
+  base: '/',
   build: {
     rollupOptions: {
       input: {

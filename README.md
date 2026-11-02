@@ -30,7 +30,7 @@ npm run build
 npm run preview
 ```
 
-La compilation crée le site statique dans `dist/`. Le chemin de base local est `/`. La build CI GitHub Pages utilise `/upload_taxes/`, le nom de ce dépôt. Pour un domaine personnalisé, changer `base` dans `vite.config.ts` vers `'/'` pour le build, configurer le domaine dans Pages, ajouter le fichier `CNAME` correspondant et actualiser l’URL absolue de l’image Open Graph dans `index.html`.
+La compilation crée le site statique dans `dist/`. Le chemin de base est `/`, compatible avec le domaine personnalisé `gofundetat.manica.fr`. Le fichier `CNAME` configure ce domaine pour GitHub Pages. Pour changer de domaine, modifier `CNAME`, configurer le domaine dans Pages et actualiser l’URL absolue de l’image Open Graph dans `index.html`.
 
 ## Publication sur GitHub Pages
 
